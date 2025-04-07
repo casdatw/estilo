@@ -40,8 +40,11 @@
             border: none;
             border-radius: 6px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-            cursor: pointer;
-            transition: all 0.6s ease;
+           
+        }
+
+        button:hover{
+
         }
         h2{
             font-family: "Bungee Spice", sans-serif;
