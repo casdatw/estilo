@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 04-04-2025 a las 12:18:59
+-- Tiempo de generación: 07-04-2025 a las 10:36:59
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.0.30
 
@@ -44,7 +44,13 @@ INSERT INTO `t_peliculas` (`ID`, `titulo_pelicula`, `vista`, `FK_ID_persona`) VA
 (3, 'Suspiria', 1, 5),
 (4, 'La vita è bella', 0, 4),
 (5, 'Jurassic Park', 0, 2),
-(6, 'Indiana Jones', 0, 8);
+(6, 'Indiana Jones', 0, 8),
+(7, 'Eternal sunshien of ', 1, 1),
+(8, 'Amelie Poulain', 0, 1),
+(9, 'La vita è bella', 0, 1),
+(10, 'Up', 0, 0),
+(11, 'Inside out', 0, 0),
+(12, 'Totoro', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -69,7 +75,18 @@ INSERT INTO `t_persona` (`ID`, `nombre`) VALUES
 (5, 'Max'),
 (6, 'Germán'),
 (7, 'Sira'),
-(8, 'Roberto');
+(8, 'Roberto'),
+(9, 'Laura'),
+(10, 'Jorge'),
+(11, 'Felipe'),
+(12, 'Marcos'),
+(13, 'Dario'),
+(14, 'Estela'),
+(15, 'Yana'),
+(16, 'Ane'),
+(17, 'Vega'),
+(18, 'Vega'),
+(19, 'Roberto');
 
 --
 -- Índices para tablas volcadas
@@ -95,13 +112,13 @@ ALTER TABLE `t_persona`
 -- AUTO_INCREMENT de la tabla `t_peliculas`
 --
 ALTER TABLE `t_peliculas`
-  MODIFY `ID` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `ID` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT de la tabla `t_persona`
 --
 ALTER TABLE `t_persona`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
